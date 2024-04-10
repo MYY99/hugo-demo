@@ -1,0 +1,33 @@
+baseURL: "https://myy99.github.io/hugo-demo/"
+languageCode: en-us
+title: My New Hugo Site
+theme: PaperMod
+
+params:
+  homeInfoParams:
+    Title: "Hello Stranger"
+    Content: Welcome to my-blog. Here you'll find a lot of cool information!
+  socialIcons:
+    - name: facebook
+      url: 'https://facebook.com/'
+  cover:
+    linkFullImages: true
+  ShowBreadCrumbs: true
+  ShowReadingTIme: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+
+menu:
+  main:
+    - identifier: categories
+      name: Categories
+      url: /categories/
+      weight: 1
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 5
+    - identifier: archives
+      name: Archives
+      url: /archives/
+      weight: 10
